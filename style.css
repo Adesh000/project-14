@@ -139,3 +139,37 @@ button {
     top: 420px;
     left: 452px;
 }
+
+@media screen and (max-width: 720px){
+
+    *{
+        color: blue;
+    }
+    .menu {
+        margin-left: 30px;
+    }
+    .creativity {
+        margin-left: 50px;
+    }
+
+    .creativity div div {
+        left: 350px;
+        top: 50px;
+
+    }
+
+    .last {
+        margin: 150px 10px;
+    }
+    .v-line{
+        margin: 10px;
+        position: absolute;
+        left: 0;
+        top: 640px;
+    }
+    .arrow {
+        position: relative;
+        right: 120px;
+        top: 80px;
+    }
+}
